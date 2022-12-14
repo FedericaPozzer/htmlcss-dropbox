@@ -27,8 +27,8 @@
 .column-big {
 	width: 70%;
 
-		/* debug */
-		background-color: orange;
+	/* debug */
+	background-color: orange;
 }
 
 
@@ -60,7 +60,7 @@ a {
 
 .btn {
 	border: none;
-	padding: .4rem .8rem;
+	padding: .7rem .8rem;
 	background-color: #0061ff;
 	cursor: pointer;
 	color: #ffffff;
@@ -73,7 +73,6 @@ section {
 	/* debug */
 	border: 2px dotted purple;
 }
-
 
 
 

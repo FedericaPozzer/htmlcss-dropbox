@@ -6,12 +6,15 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-
     /* z-index: 1; */
 }
 
 .header-head > div > * {
     margin: 0 1rem;
+}
+
+.header-head button {
+    padding: .4rem .8rem;
 }
 
 /* HEADER - jumbotron */
@@ -23,6 +26,28 @@
 
 .jumbotron img {
     width: 750px;
+}
+
+h1 {
+    margin: 4rem auto 2rem;
+    font-size: 4.7rem;
+    font-weight:900;
+}
+.jumbotron button {
+    margin: 2rem auto;
+}
+
+.arrow {
+    font-size: 4rem;
+    bottom: 3rem;
+}
+
+.jumbotron .column-small {
+    top: 3rem;
+}
+
+.jumbotron img {
+    bottom: -3rem;
 }
 
 /* MAIN - 1/8 */
