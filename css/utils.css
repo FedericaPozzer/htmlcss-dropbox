@@ -2,15 +2,57 @@
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto;
 
 	/* debug */
 	background-color: lightseagreen;
 }
 
-.clearfix::after {
+.container-big {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.column-small {
+	width: 30%;
+
+	/* debug */
+	background-color: yellow;
+}
+
+.column-big {
+	width: 70%;
+
+		/* debug */
+		background-color: orange;
+}
+
+
+.d-flex {
+	display: flex;
+}
+
+.rel {
+	position: relative;
+}
+
+.abs {
+	position: absolute;
+}
+
+.fix {
+	position: fixed;
+}
+
+
+
+
+
+
+/* .clearfix::after {
 	content: '';
 	clear: both;
 	display: table;
-}
+} */
