@@ -23,3 +23,17 @@
     width: 700px;
 }
 
+/* MAIN - 1/8 */
+
+.row {
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+    border: 1px solid black;
+}
+
+.column ul {
+    list-style: none;
+}
