@@ -19,8 +19,8 @@
     background-color: #b4d0e7;
 }
 
-.column-big > img {
-    width: 700px;
+.jumbotron img {
+    width: 750px;
 }
 
 /* MAIN - 1/8 */
@@ -40,3 +40,8 @@
 
 /* MAIN - 2/8 */
 
+/* MAIN 3/8 */
+
+.resize {
+    width: 90%;
+}
