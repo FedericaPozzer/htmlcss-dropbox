@@ -119,3 +119,31 @@
 .coso {
     flex-direction: column;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+}
+footer nav {
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#language-picker-select {
+	text-decoration: none;
+	border: 0;
+	margin: 0;
+	font-size: 15px;
+	color: white;
+	background-color: transparent;
+}
