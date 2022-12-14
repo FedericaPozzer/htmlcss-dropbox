@@ -34,11 +34,6 @@
 	display: flex;
 }
 
-.d-in-b {
-	display: inline-block;
-
-}
-
 .rel {
 	position: relative;
 }
@@ -54,6 +49,9 @@
 
 section {
 	padding-top: 4rem;
+
+	/* debug */
+	border: 2px dotted purple;
 }
 
 
@@ -65,3 +63,5 @@ section {
 	clear: both;
 	display: table;
 } */
+
+
