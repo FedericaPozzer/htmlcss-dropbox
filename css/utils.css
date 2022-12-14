@@ -15,6 +15,8 @@
 	margin: 0 auto;
 }
 
+
+
 .column-small {
 	width: 30%;
 
@@ -28,6 +30,7 @@
 		/* debug */
 		background-color: orange;
 }
+
 
 
 .d-flex {
@@ -44,6 +47,23 @@
 
 .fix {
 	position: fixed;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+.btn {
+	border: none;
+	padding: .4rem .8rem;
+	background-color: #0061ff;
+	cursor: pointer;
+	color: #ffffff;
 }
 
 

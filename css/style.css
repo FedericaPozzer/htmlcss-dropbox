@@ -5,10 +5,13 @@
     width: 100vw;
     justify-content: space-between;
     align-items: center;
-    /* z-index: 1; */
+    background-color: #ffffff;
 
-    /* debug */
-    background-color: palevioletred;
+    /* z-index: 1; */
+}
+
+.header-head > div > * {
+    margin: 0 1rem;
 }
 
 /* HEADER - jumbotron */
@@ -132,11 +135,6 @@ footer nav {
 footer ul {
     list-style: none;
     color: white;
-}
-
-footer a {
-    text-decoration: none;
-    color: inherit;
 }
 
 #language-picker-select {
