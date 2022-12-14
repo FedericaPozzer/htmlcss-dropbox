@@ -38,10 +38,71 @@
     list-style: none;
 }
 
-/* MAIN - 2/8 */
-
 /* MAIN 3/8 */
 
 .resize {
     width: 90%;
 }
+
+/* MAIN 6/8 */
+
+.logo-bar > div {
+    width: calc(100% /3);
+}
+
+.logo-box {
+    width: 20vw;
+    height: 287px; /* se metto 20vw non funziona! */
+    justify-content: center;
+}
+
+.logo-box > img {
+    max-width: 50%;
+  
+}
+
+.logo-bar-center {
+    padding: 20px;
+}
+
+/* MAIN 6/8 background colors */
+
+.alfa {
+    background-color: green;
+    border: 10px solid lightgreen;
+}
+
+.bravo {
+ background-color: brown;
+}
+
+.charlie {
+    background-color: lightskyblue;
+    /* height: 37px; */
+    text-align: center;
+}
+.charlie > img {
+    padding-top: 47%;
+}
+
+.delta {
+    background-color: red;
+}
+
+.echo {
+    background-color: red;
+}
+
+.foxtrot {
+    background-color: lightblue;
+}
+
+.golf {
+    background-color: blue;
+}
+
+.hotel {
+    background-color: yellow;
+}
+
+/*  */
