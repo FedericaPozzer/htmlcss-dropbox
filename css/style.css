@@ -52,6 +52,29 @@ h1 {
 
 /* MAIN - 1/8 */
 
+main {
+    margin-top: 3rem;
+}
+
+.billing {
+    margin: 3rem 3rem 3rem 0;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    width: 1.2rem;
+    margin-right: .3rem;
+}
+
+.circle.blue {
+    border: .3rem solid blue;
+}
+
+.circle.white {
+    border: .3rem solid white;
+}
+
 .row {
     justify-content: space-between;
 }
@@ -59,11 +82,35 @@ h1 {
 .column {
     width: 30%;
     border: 1px solid black;
+    padding: 1.5rem;
+}
+
+.column > .type {
+    padding: .8rem;
+    border-bottom: 1px solid black;
+    display: block;
+    text-align: center;
 }
 
 .column ul {
     list-style: none;
+    /* margin: 1rem 0 1rem 0; */
 }
+
+.column button {
+    width: 100%;
+}
+
+ul .fa-check {
+    color: blue;
+} 
+
+.row li {
+    padding: 0.8rem 0 0.8rem 0;
+}
+
+
+
 
 /* MAIN 3/8 */
 
