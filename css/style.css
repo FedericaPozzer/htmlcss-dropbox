@@ -15,7 +15,6 @@
 
 .jumbotron {
     padding-top: 8vh;
-
     background-color: #b4d0e7;
 }
 
@@ -105,4 +104,18 @@
     background-color: yellow;
 }
 
-/*  */
+/* MAIN - 7/8 */
+
+.start {
+    background-color: #b4d0e7;
+}
+
+/* MAIN - 8/8 */
+
+.questions span {
+    width: 100%;
+}
+
+.coso {
+    flex-direction: column;
+}
