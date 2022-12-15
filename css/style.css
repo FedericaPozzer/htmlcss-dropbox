@@ -71,7 +71,7 @@ main {
     border: .3rem solid white;
 }
 
-.row {
+.row { 
     justify-content: space-between;
 }
 
@@ -116,6 +116,14 @@ ul .fa-check {
 .resize {
     width: 90%;
 }
+
+/* MAIN 4/8 */
+
+.column-nb {
+    width: 30%;
+    /* border: 1px solid grey; */
+}
+
 
 /* MAIN 6/8 */
 
