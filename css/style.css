@@ -186,13 +186,16 @@ ul .fa-check {
 
 /* MAIN - 8/8 */
 
-.questions span {
-    width: 100%;
+.questions > div {
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 1.5rem 1.5rem 1.5rem 0;
 }
 
-.coso {
-    flex-direction: column;
+.b-bot {
+    border-bottom: 1px solid grey;
 }
+
 
 /* FOOTER */
 
