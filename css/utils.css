@@ -65,9 +65,17 @@ header a, footer a {
 	color: #ffffff;
 }
 
+.btn.btn-white {
+	background-color: #ffffff;
+	color: black;
+	margin-left: 3.7rem; /* awful! */
+}
+
 
 section {
-	padding-top: 4rem;
+	/* padding-top: 4rem; */
+	padding: 4rem 0 4rem 0;
+	
 
 	/* debug */
 	border: 2px dotted purple;
@@ -75,7 +83,7 @@ section {
 
 
 h2 {
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	font-weight: 900;
 }
 
@@ -106,6 +114,11 @@ h4 {
 
 
 
+.bg-lightblue {
+    background-color: #b4d0e7;
+}
+
+
 
 .space-ud {
 	margin: 1rem 0 1rem 0;
@@ -122,3 +135,4 @@ h4 {
 .pad {
     padding: 0 1.5rem 0 1.5rem;
 }
+

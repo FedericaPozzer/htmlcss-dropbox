@@ -21,7 +21,6 @@
 
 .jumbotron {
     padding-top: 5vh;
-    background-color: #b4d0e7;
 }
 
 .jumbotron > .container-big {
@@ -181,8 +180,8 @@ ul .fa-check {
 
 /* MAIN - 7/8 */
 
-.start {
-    background-color: #b4d0e7;
+.col-h2 {
+    color: #61082b;
 }
 
 /* MAIN - 8/8 */
