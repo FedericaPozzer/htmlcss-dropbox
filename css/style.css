@@ -20,7 +20,7 @@
 /* HEADER - jumbotron */
 
 .jumbotron {
-    padding-top: 20vh;
+    padding-top: 5vh;
     background-color: #b4d0e7;
 }
 
@@ -111,20 +111,12 @@ ul .fa-check {
     border: 1px solid grey;
 }
 
-/* MAIN 3/8 */
-
-.resize {
-    width: 90%;
-}
-
 /* MAIN 4/8 */
 
 .column-nb {
     width: 30%;
     /* border: 1px solid grey; */
 }
-
-/* MAIN 5/8 */
 
 /* MAIN 6/8 */
 
@@ -133,36 +125,34 @@ ul .fa-check {
 }
 
 .logo-box {
-    width: 20vw;
-    height: 287px; /* se metto 20vw non funziona! */
+    width: calc(100vw / 3 / 2);
+    height: calc(100vw / 3 / 2);
     justify-content: center;
-    /* prova con calc */
-    /* oppure dai grandezza al container e caccia un 50% */
 }
 
 .logo-box > img {
     max-width: 50%;
-  
+    filter: invert(100%);
 }
 
 .logo-bar-center {
-    padding: 20px;
+    overflow: auto;
+    height: calc(100vw / 3 - 2rem);
 }
 
 /* MAIN 6/8 background colors */
 
 .alfa {
-    background-color: green;
-    border: 10px solid lightgreen;
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
 }
 
 .bravo {
- background-color: brown;
+ background-color: #61082b;
 }
 
 .charlie {
-    background-color: lightskyblue;
-    /* height: 37px; */
+    background-color: #0093ce;
     text-align: center;
 }
 .charlie > img {
@@ -170,23 +160,23 @@ ul .fa-check {
 }
 
 .delta {
-    background-color: red;
+    background-color: #ff1c1c;
 }
 
 .echo {
-    background-color: red;
+    background-color: #d5001f;
 }
 
 .foxtrot {
-    background-color: lightblue;
+    background-color: #b4d0e7;
 }
 
 .golf {
-    background-color: blue;
+    background-color: #0d2481;
 }
 
 .hotel {
-    background-color: yellow;
+    background-color: #ffd830;
 }
 
 /* MAIN - 7/8 */

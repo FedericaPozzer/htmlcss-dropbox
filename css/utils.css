@@ -90,11 +90,21 @@ h4 {
 	font-weight: 700;
 }
 
-/* .clearfix::after {
-	content: '';
-	clear: both;
-	display: table;
-} */
+
+.w-30pc {
+	width: 30%;
+}
+
+
+.w-50pc {
+	width: 50%;
+}
+
+.w-90pc {
+    width: 90%;
+}
+
+
 
 
 .space-ud {
