@@ -77,10 +77,9 @@ main {
 .column {
     width: 30%;
     border: 1px solid grey;
-    /* padding: 1.5rem; */
 }
 
-.column-header { /*move to utils?*/
+.column-header {
     padding: .8rem;
     border-bottom: 1px solid grey;
     display: block;
@@ -89,7 +88,6 @@ main {
 
 .column ul {
     list-style: none;
-    /* margin: 1rem 0 1rem 0; */
 }
 
 .column button {
@@ -114,10 +112,14 @@ ul .fa-check {
 
 .column-nb {
     width: 30%;
-    /* border: 1px solid grey; */
 }
 
 /* MAIN 6/8 */
+
+.logo-bar {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 .logo-bar > div {
     width: calc(100% /3);
@@ -199,7 +201,7 @@ ul .fa-check {
 /* FOOTER */
 
 footer {
-    background-color: black;
+    background-color: #000000;
 }
 footer nav {
     justify-content: space-between;
