@@ -1,3 +1,27 @@
+/* Bonus header border-bottom */
+
+.header-head a:hover {
+    border-bottom: 3px solid black;
+}
+
+
+/* Bonus buttons */
+
 .btn:hover {
     filter: opacity(70%);
+}
+
+
+/* Bonus 8/8 display */
+
+.ciao:hover .hover-item {
+    display: block;
+}
+
+.ciao:hover .fa {
+    display: none;
+}
+
+.ciao:hover .fb {
+    top: -35px;
 }

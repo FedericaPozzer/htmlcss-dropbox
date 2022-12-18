@@ -1,16 +1,20 @@
 /* HEADER - header-head */
 
 .header-head {
-    min-height: 8vh;
+    height: 8vh;
     width: 100vw;
     justify-content: space-between;
-    align-items: center;
     background-color: #ffffff;
     z-index: 1;
 }
 
 .header-head > div > * {
     margin: 0 1rem;
+}
+
+.header-head a {
+    line-height: 8vh;
+    padding-bottom: 3vh;
 }
 
 .header-head button {
@@ -188,14 +192,35 @@ ul .fa-check {
 
 /* MAIN - 8/8 */
 
+.lin { /* se no quando "si apre" la sezione cambia misure e fa schifo */
+    height: 35rem;
+}
+
+.p-bot {
+    padding-bottom: 3rem;
+}
+
 .questions > div {
     justify-content: space-between;
-    border-top: 1px solid grey;
+    /* border-top: 1px solid grey; */
     padding: 1.5rem 1.5rem 1.5rem 0;
 }
 
 .b-bot {
     border-bottom: 1px solid grey;
+}
+
+.ciao {
+    flex-direction: column;
+}
+
+.questions .fr {
+    right: 0;
+    top: 0;
+}
+
+.hover-item {
+    display: none;
 }
 
 /* FOOTER */

@@ -18,14 +18,14 @@
 </head>
 
 <body>
-<!-- Header fixed con 2div divisi da space between -->
-	<header class="rel">
+<!--TODO  Header fixed con 2div divisi da space between -->
+	<header>
 		<nav class="header-head d-flex fix">
 			
-			<div class="d-flex">
-				<a href="#">
+			<div>
+				<!-- <a href="#"> -->
 					<img src="./img/logo-small.png" alt="logo">
-				</a>
+				<!-- </a> -->
 				<a href="#">Perchè Dropbox</a>
 				<a href="#">Funzioni</a>
 				<a href="#">Piani e Prezzi</a>
@@ -40,7 +40,7 @@
 		</nav>
 	
 
-<!-- Jumbo in container big - h1 - colonna piccola con freccia sotto - colonna grande con img  che esce con position relative (o dando una height al jumbotron) / sfondo #b4d0e7 -->
+<!--TODO Jumbo in container big - h1 - colonna piccola con freccia sotto - colonna grande con img  che esce con position relative (o dando una height al jumbotron) / sfondo #b4d0e7 -->
 		<div class="jumbotron bg-lightblue rel">
 			<div class="container-big rel">
 				<h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -73,7 +73,7 @@
 <!-- Main -->
 	<main>
 
-<!-- 1/8 - class container / h2 - 2x div con border radius 50% e span - 3x colonne con margin che finiscono tutte nello stesso punto perchè strecciano (il container ha display: flex) -->
+<!--TODO 1/8 - class container / h2 - 2x div con border radius 50% e span - 3x colonne con margin che finiscono tutte nello stesso punto perchè strecciano (il container ha display: flex) -->
 		<section class="container">
 			<div id="BuyPlan">
 
@@ -279,7 +279,7 @@
 			</div>
 		</section>
 
-<!-- 2/8 - class container / una colonna grande con accanto una colonna piccola contenente un button -->
+<!--TODO 2/8 - class container / una colonna grande con accanto una colonna piccola contenente un button -->
 		<section class="container">
 			<div class="section-main-2">
 
@@ -308,7 +308,7 @@
 			
 		</section>
 	
-<!-- 3/8 - class container / una colonna grande con accanto una colonna piccola -->
+<!--TODO 3/8 - class container / una colonna grande con accanto una colonna piccola -->
 		<section class="container d-flex">
 
 			<div class="column-big">
@@ -323,7 +323,7 @@
 
 		</section>
 
-<!-- 4/8 - class container / 6x colonne (cards) con width 30% e space between (2 row o una con flex wrap) contenenti immagini e testo (flex direction column?) -->
+<!--TODO 4/8 - class container / 6x colonne (cards) con width 30% e space between (2 row o una con flex wrap) contenenti immagini e testo (flex direction column?) -->
 		<section class="container">
 
 			<h2 class="space-ud">Esegui più operazioni con Dropbox Business</h2>
@@ -374,13 +374,13 @@
 
 		</section>
 
-<!-- 5/8 - class container / h2 con sotto un link // <b> o div con .column-big -->
+<!--TODO 5/8 - class container / h2 con sotto un link // <b> o div con .column-big -->
 		<section class="container">
 			<h2 class="space-ud">Più di 500.000 team utilizzano <br>Dropbox Business</h2>
 			<a href="#">Scopri di più sui nostri clienti</a>
 		</section>
 
-<!-- 6/8 - Zona loghi - sono loghi (no background, usa img) - 3x div (uno accanto all'altro) - nel primo e nel terzo 4 elementi con wv 15% o 20% sia in width che in height -->
+<!--TODO 6/8 - Zona loghi - sono loghi (no background, usa img) - 3x div (uno accanto all'altro) - nel primo e nel terzo 4 elementi con wv 15% o 20% sia in width che in height -->
 		<section class="logo-bar d-flex space-ud">
 			
 			<div>
@@ -445,7 +445,7 @@
 
 		</section>
 
-<!-- 7/8 - class container / colonna grande con h2 e colonna piccola con button - stesso sfondo del jumbotron -->
+<!--TODO 7/8 - class container / colonna grande con h2 e colonna piccola con button - stesso sfondo del jumbotron -->
 		<section class="bg-lightblue">
 			<div class="container d-flex">
 
@@ -460,29 +460,47 @@
 			</div>
 		</section>
 
-<!-- 8/8 - class container / h2 + colonna grande + colonna piccola -->
-		<section class="container">
+<!--TODO 8/8 - class container / h2 + colonna grande + colonna piccola -->
+		<section class="container lin">
 
-			<h2>Domande frequenti</h2>
+			<h2 class="b-bot p-bot">Domande frequenti</h2>
 
 			<div class="questions space-ud">
 
-				<div class="d-flex space-ud">
-					<span>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span> 
-					<i class="fa-solid fa-angle-down"></i>
-					<!-- <i class="fa-solid fa-angle-up"></i> -->
+				<div class="b-bot d-flex space-ud ciao">
+					<div class="rel">
+						<h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4> 
+						<i class="fa-solid fa-angle-down fr fa abs"></i>
+					</div>
+					
+					<div class="hover-item rel space-ud">
+						<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ullam nulla molestias dolorum doloribus doloremque dolore deleniti at eligendi accusantium.</span> 
+						<i class="fa-solid fa-angle-up fr fb abs"></i>
+					</div>
 				</div>
-	
-				<div class="d-flex space-ud">
-					<span>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span> 
-					<i class="fa-solid fa-angle-down"></i>
-					<!-- <i class="fa-solid fa-angle-up"></i> -->
+
+				<div class="b-bot d-flex space-ud ciao">
+					<div class="rel">
+						<h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4> 
+						<i class="fa-solid fa-angle-down fr fa abs"></i>
+					</div>
+					
+					<div class="hover-item rel space-ud">
+						<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ullam nulla molestias dolorum doloribus doloremque dolore deleniti at eligendi accusantium.</span> 
+						<i class="fa-solid fa-angle-up fr fb abs"></i>
+					</div>
 				</div>
-	
-				<div class="d-flex space-ud b-bot">
-					<span>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span> 
-					<i class="fa-solid fa-angle-down"></i>
-					<!-- <i class="fa-solid fa-angle-up"></i> -->
+
+				<div class="b-bot d-flex space-ud ciao">
+					<div class="rel">
+						<h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4> 
+						<i class="fa-solid fa-angle-down fr fa abs"></i>
+					</div>
+					
+					<div class="hover-item rel space-ud">
+						<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ullam nulla molestias dolorum doloribus doloremque dolore deleniti at eligendi accusantium.</span> 
+						<i class="fa-solid fa-angle-up fr fb abs"></i>
+					</div>
 				</div>
 
 			</div>
@@ -494,7 +512,7 @@
 <!-- Footer nel continer big -->
 	<footer>
 
-<!-- 1/2 - nav bar con 5x div che hanno display flex / sfondo #000000 -->
+<!--TODO 1/2 - nav bar con 5x div che hanno display flex / sfondo #000000 -->
 		<section class="container-big">
 
 			<nav class="d-flex">
@@ -548,7 +566,7 @@
 
 			<span class="greyline">____________</span>
 
-<!-- 2/2 - class container big / coso già fatto -->
+<!--TODO 2/2 - class container big / coso già fatto -->
 
 			<div class="container-big d-flex space-ud">
 
